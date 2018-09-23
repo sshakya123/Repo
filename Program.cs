@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+//Write some code
 namespace ConsoleApp27
 {
     class Program
@@ -21,7 +23,7 @@ namespace ConsoleApp27
             {
                 Console.WriteLine("Enter the Luck:");
                 str = Console.ReadLine().ToUpper();
-                String[] arr = new string[] { "Abhisek", "Anurag", "Bishal", "shreejan", "Sulav2" };
+                String[] arr = new string[] { "Abhisek", "Anurag", "Bishal", "shreejan", "Sulav" };
                 var random = new Random();
                 var randomIndex = random.Next(0,arr.Length);
                 switch(arr[randomIndex])
