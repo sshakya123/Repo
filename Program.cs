@@ -21,7 +21,7 @@ namespace ConsoleApp27
             {
                 Console.WriteLine("Enter the Luck:");
                 str = Console.ReadLine().ToUpper();
-                String[] arr = new string[] { "Abhisek", "Anurag", "Bishal", "shreejan", "Sulav" };
+                String[] arr = new string[] { "Abhisek", "Anurag", "Bishal", "shreejan", "Sulav2" };
                 var random = new Random();
                 var randomIndex = random.Next(0,arr.Length);
                 switch(arr[randomIndex])
